@@ -142,6 +142,7 @@
                 <a href="https://github.com/Carranya/homepage_v2" target="_blank"><img src="img/websites/homepage_v2.jpg" class="websitesPic"></img></a>
                 <a href="https://github.com/Carranya/website_proposal_1" target="_blank"><img src="img/websites/website_proposal_1.jpg" class="websitesPic"></img></a>
                 <a href="https://github.com/Carranya/website_proposal_2" target="_blank"><img src="img/websites/website_proposal_2.jpg" class="websitesPic"></img></a>
+                <a href="https://github.com/Carranya/website_proposal_3" target="_blank"><img src="img/websites/website_proposal_3.jpg" class="websitesPic"></img></a>
 
             </p>
         </div>  
@@ -182,7 +183,7 @@
     <div id='main'>
         <div id='menue'>
             <button id='home' class='classButton' value='pageHome'>Home</button>
-            <button id='websites' class='classButton'  value='pageWebsites'>Webseiten</button>
+            <button id='websites' class='classButton'  value='pageWebsites'>Websites</button>
             <button id='about' class='classButton'  value='pageAbout'>About</button>
         </div>
         <div id='centerContents'>
