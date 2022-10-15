@@ -65,8 +65,7 @@
         }
 
         .classPic{
-            float: right;
-            width: 300px;
+            width: 200px;
             margin: 0.3em;
             border: 1px solid black;
         }
@@ -79,6 +78,38 @@
             width: 100px;
         }
 
+        #websites {
+            text-align: left;
+        }
+
+        #websitesContent {
+            padding:10px;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .websitesPic {
+            width: 200px;
+            transition: transform 0.5s;
+            box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+            margin: 10px;
+        }
+
+        .websitesPic:hover {
+            transform: scale(1.2);
+        }
+
+        @media screen and (min-width: 400px){
+            .websitesPic {
+                width: 300px;
+            }
+
+            .classPic {
+                width: 300px;
+                float: right;
+            }
+        }
 
 
     </style>
@@ -95,7 +126,27 @@
 <body>
     <div id='displayNone'>
         <div id='pageHome'>Home</div>
-        <div id='pageProjects'>Projects</div>
+
+        <!-- Websites -->
+        <div id='pageWebsites'>
+            <h2 class="classTitle">Webseiten Vorschläge</h2>
+            <p>
+            Am Liebsten programmiere ich Webseiten.<br>
+            Es ist auch mein Hobby, immer wieder neue Ideen für Webseiten zu entwickeln und diese auf dem Bildschirm zu bringen.</p>
+            <br>
+            <p>Alle Codes von meiner Webseiten Vorschlägen sind in meiner <b><a href='https://github.com/Carranya'>GitHub Seite</a></b> einsehbar.</p>
+
+            <div id="websitesContent">
+            <p>
+                <a href="https://github.com/Carranya/homepage_v1" target="_blank"><img src="img/websites/homepage_v1.jpg" class="websitesPic"></img></a>
+                <a href="https://github.com/Carranya/homepage_v2" target="_blank"><img src="img/websites/homepage_v2.jpg" class="websitesPic"></img></a>
+                <a href="https://github.com/Carranya/website_proposal_1" target="_blank"><img src="img/websites/website_proposal_1.jpg" class="websitesPic"></img></a>
+                <a href="https://github.com/Carranya/website_proposal_2" target="_blank"><img src="img/websites/website_proposal_2.jpg" class="websitesPic"></img></a>
+
+            </p>
+        </div>  
+
+        </div>
 
         <!-- About -->
         <div id='pageAbout'>
@@ -131,7 +182,7 @@
     <div id='main'>
         <div id='menue'>
             <button id='home' class='classButton' value='pageHome'>Home</button>
-            <button id='projects' class='classButton'  value='pageProjects'>Projects</button>
+            <button id='websites' class='classButton'  value='pageWebsites'>Webseiten</button>
             <button id='about' class='classButton'  value='pageAbout'>About</button>
         </div>
         <div id='centerContents'>
@@ -153,7 +204,7 @@
     
 
     <script>
-        const pages = ['home', 'projects', 'about'];
+        const pages = ['home', 'websites', 'about'];
 
         let firstContent = document.getElementById(pages[0]).innerHTML;
         document.getElementById('contents').innerHTML = firstContent;
