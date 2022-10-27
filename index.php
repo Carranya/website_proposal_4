@@ -18,7 +18,7 @@
     <div id='header'><p>Website Proposal 4</p></div>
 
     <div id='main'>
-        <div id='menue'>
+        <div id='menu'>
             <button id='home' class='classButton' value='pageHome'>Home</button>
             <button id='websites' class='classButton'  value='pageWebsites'>Websites</button>
             <button id='about' class='classButton'  value='pageAbout'>About</button>
