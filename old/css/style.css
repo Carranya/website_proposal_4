@@ -1,0 +1,107 @@
+body {
+    font-family: Verdana;
+    text-align: center;
+}
+
+#displayNone {
+    display: none;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#address {
+    font-size: 0.8em;
+    text-align: left;
+    bottom: 20px;
+    margin: 0.5em;
+}
+
+#centerContents {
+    display: flex;
+    justify-content: center;
+}
+
+#contents {
+    width: 80%;
+    height: 80%;
+    display: block;
+    background-color: lightblue;
+    padding: 1em;
+    border: 5px solid black;
+    border-radius: 1em;
+    margin: 1em;
+    text-align: justify;
+}
+
+#contents h2 {
+    text-align: center;
+}
+
+.classButton {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1.5em;
+    color: blue;
+    padding: 0.5em;
+    margin: 0.5em;
+    opacity: 1;
+}
+
+.classButton:hover {
+    opacity: 0.6;
+}
+
+.classButton:focus {
+    opacity: 0.6;
+}
+
+.classPic{
+    width: 200px;
+    margin: 0.3em;
+    border: 1px solid black;
+}
+
+#aboutTech{
+    text-align: center;
+}
+
+#aboutTech img{
+    width: 100px;
+}
+
+#websites {
+    text-align: left;
+}
+
+#websitesContent {
+    padding:10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.websitesPic {
+    width: 200px;
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    margin: 10px;
+}
+
+.websitesPic:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (min-width: 400px){
+    .websitesPic {
+        width: 300px;
+    }
+
+    .classPic {
+        width: 300px;
+        float: right;
+    }
+}
