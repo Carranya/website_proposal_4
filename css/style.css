@@ -67,3 +67,9 @@ body {
         float: right;
     }
 }
+
+@media (min-width: 1000px) {
+    .pageContent {
+        height: 25%;
+    }
+}

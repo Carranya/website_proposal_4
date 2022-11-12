@@ -1,10 +1,27 @@
 window.onload = function(){
-    document.getElementById("navigation").addEventListener("click", (openWebsites));
-    
+
+    const buttonId = [
+        "buttonHome",
+        "buttonWebsites",
+        "buttonAbout",
+        "buttonContact"
+    ];
+
+    document.getElementById("idHome").scrollIntoView();
+
+    for(let i=0; i<buttonId.length; i++){
+        document.getElementById(buttonId[i]).addEventListener("click", function(){openWebsite(i);});
+    }   
 }
 
-function openWebsites(){
-    // document.getElementById("main").style.transform = "translate(0, -25%)";
-    document.getElementById("idAbout").scrollIntoView();
-}
+function openWebsite(id){
 
+    const pages = [
+        "idHome",
+        "idWebsites",
+        "idAbout",
+        "idContact"
+    ];
+
+    document.getElementById(pages[id]).scrollIntoView();
+}
