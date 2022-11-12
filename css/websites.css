@@ -1,0 +1,39 @@
+#websitesContents {
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.websitesPic {
+    width: 300px;
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    margin: 1em;
+}
+
+.websitesPic:hover {
+    transform: scale(1.2);
+}
+
+#websitesLogo {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.5s;    
+}
+
+#websitesLogo:hover {
+    transform: scale(1.2);
+}
+
+@media (min-width: 920px){
+    #websitesContents {
+        width: 720px;
+    }
+}
+
+@media (min-width: 1320px){
+    #websitesContents {
+        width: 1020px;
+    }
+}

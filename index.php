@@ -10,11 +10,14 @@
 </head>
 <body>
     <div id="main">
+<<<<<<< HEAD
+        <div id="idNavigation"><?php include "pages/navigation.php"; ?></div>        
+=======
         <div id="navigation"><?php include "pages/menu.php"; ?></div>        
+>>>>>>> 186a99b56ab4f1770793ce823d9b4984131a001e
         <div id="idHome" class="pageContent"><?php include "pages/home.php"; ?></div>
         <div id="idAbout" class="pageContent"><?php include "pages/about.php"; ?></div>
         <div id="idContact" class="pageContent"><?php include "pages/contact.php"; ?></div>
-        <div id="footer">foot</div>
     </div>
 </body>
 </html>
