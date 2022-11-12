@@ -10,9 +10,8 @@
 </head>
 <body>
     <div id="main">
-        <div id="navigation">menu </div>        
+        <div id="navigation"><?php include "pages/menu.php"; ?></div>        
         <div id="idHome" class="pageContent"><?php include "pages/home.php"; ?></div>
-        <div id="idWebsites" class="pageContent"><?php include "pages/websites.php"; ?></div>
         <div id="idAbout" class="pageContent"><?php include "pages/about.php"; ?></div>
         <div id="idContact" class="pageContent"><?php include "pages/contact.php"; ?></div>
         <div id="footer">foot</div>
