@@ -1,7 +1,7 @@
 <div class="centerPage">
     <div class="innerPage">
         <h2>Kontakt</h2>
-        <div class="centerPic"><img src="img/karin.jpg" class="classPic" alt="Karin Giang" title="Karin Giang"></img></div>
+        <div class="centerPic"><img src="img/karin.jpg" class="classPic" alt="Karin Giang" title="Karin Giang"></div>
     
         <p><b>Adresse:</b><br>
         Karin (Martin) Giang<br>

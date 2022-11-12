@@ -1,7 +1,7 @@
 <div class="centerPage">
     <div class="innerPage">
         <h2>Über mich</h2>
-        <div class="centerPic"><img src="img/karin2.jpg" class="classPic" alt="Karin Giang" title="Karin Giang"></img></div>
+        <div class="centerPic"><img src="img/karin2.jpg" class="classPic" alt="Karin Giang" title="Karin Giang"></div>
         <p>
             Guten Tag, ich bin Karin Giang.
             <br><br>
