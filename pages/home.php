@@ -1,6 +1,6 @@
 <div class="centerPage">
     <div class="innerPage">
-        <h1>Website Proposal 2</h1>
+        <h1>Website Proposal 4</h1>
         <h2>Herzlich Willkommen</h2>
         <p>
         Meine erste Webseite mit der mordernen Slidedown Effekt.<br>
