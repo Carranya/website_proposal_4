@@ -1,7 +1,8 @@
 #idNavigation {
     position: sticky;
     top: 0;
-    background-color: lightpink;
+    background-color: blueviolet;
+    color: white;
     z-index: 10;
     transition: transform 0.5s;
     transform: translate(0, 0);
@@ -19,11 +20,15 @@
 }
 
 .classMenu {
+    font-weight: bold;
     display: inline-block;
     padding: 0.5em;
+    cursor: pointer;
 }
 
-
+.classMenu:hover {
+    opacity: 0.6;
+}
 
 @media (min-width: 640px) {
     #naviName {
