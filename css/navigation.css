@@ -8,9 +8,6 @@
     transform: translate(0, 0);
 }
 
-<<<<<<< HEAD
-}
-
 #navigation {
     display: flex;
     justify-content: space-between;
@@ -19,10 +16,4 @@
 
 .classMenu {
     display: inline-block;
-=======
-.menuButton {
-    display: inline;
-    margin: 0.3em;
-    padding: 0.3em;
->>>>>>> 186a99b56ab4f1770793ce823d9b4984131a001e
 }

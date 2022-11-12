@@ -6,19 +6,10 @@
 .contactBigIcons {
     width: 60px;
     height: 60px;
-<<<<<<< HEAD
     margin: 0.3em;
     transition: transform 0.5s;
-=======
-    transition: transform 0.5s;
-    margin: 0.3em;
->>>>>>> 186a99b56ab4f1770793ce823d9b4984131a001e
 }
 
 .contactBigIcons:hover {
     transform: scale(1.2);
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 186a99b56ab4f1770793ce823d9b4984131a001e

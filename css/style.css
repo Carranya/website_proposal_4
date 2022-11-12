@@ -1,8 +1,5 @@
 @import "navigation.css";
-<<<<<<< HEAD
 @import "websites.css";
-=======
->>>>>>> 186a99b56ab4f1770793ce823d9b4984131a001e
 @import "contact.css";
 @import "footer.css";
 @import "provisorisch.css";
@@ -58,14 +55,6 @@ body {
 .centerPic {
     text-align: center;
 }
-<<<<<<< HEAD
-.classPic {
-    width: 300px;
-    margin: 1em;
-}
-
-@media (min-width: 640px){
-=======
 
 .classPic {
     width: 300px;
@@ -74,7 +63,6 @@ body {
 }
 
 @media (min-width: 640px) {
->>>>>>> 186a99b56ab4f1770793ce823d9b4984131a001e
     .classPic {
         float: right;
     }
