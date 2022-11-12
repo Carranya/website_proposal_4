@@ -3,9 +3,13 @@
     top: 0;
     background-color: lightpink;
     z-index: 10;
-    width: 50%;
     height: 50px;
     transition: transform 0.5s;
     transform: translate(0, 0);
+}
 
+.menuButton {
+    display: inline;
+    margin: 0.3em;
+    padding: 0.3em;
 }
