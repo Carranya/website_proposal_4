@@ -1,6 +1,6 @@
 <div class="centerPage">
     <div class="innerPage">
-        <h2>Webseiten Vorschläge</h2>
+        <h2>Webseiten Vorschlägen</h2>
         <p>
         Am Liebsten programmiere ich Webseiten.<br>
         Es ist auch mein Hobby, immer wieder neue Ideen für Webseiten zu entwickeln und diese auf dem Bildschirm zu bringen.<br>
